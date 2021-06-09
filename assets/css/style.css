@@ -7,8 +7,55 @@
 }
 body{
     font-family: montserrat, sans-serif;
+    font-weight: 200;
+    background-color: dimgray;
+    color: ghostwhite;
 }
 
-h1{
+/* styles Logo and headings*/
+
+
+h1, h2{
     font-family: bangers, sans-serif;
+    color: ivory;
+}
+
+#logo{
+    float: left;
+    font-size: 300%;
+}
+
+#nav-bar{
+    letter-spacing: 5px;
+    list-style: none;
+    font-size: 120%;
+
+}
+
+#nav-bar li{
+    float: right;
+}
+
+.menu-seperator{
+
+    margin-right: 30px;
+    border-right: 2px solid ghostwhite;
+    padding-right: 30px;
+}
+
+#nav-bar a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#nav-bar a:hover{
+    border-bottom: 1px solid ghostwhite;
+}
+
+.active{
+    border-bottom: 1px solid ghostwhite;
+}
+
+#logo, #nav-bar{
+    line-height: 50px;
 }
