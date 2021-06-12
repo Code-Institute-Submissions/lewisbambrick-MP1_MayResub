@@ -5,6 +5,13 @@
     margin: 0;
     border: none;
 }
+#header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: dimgray;
+    z-index: 5;
+}
 
 body {
     font-family: montserrat, sans-serif;
@@ -67,6 +74,7 @@ h2 {
 
 /* main image*/
 #main-image-outer {
+
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -102,20 +110,59 @@ h2 {
 
 }
 
-#left-about{
-    padding-top: 30px;
+#left-about-indoor{
+    padding-top: 20px;
     width: 33%;
+    height: 300px;
     float: left;
+    background: url(../images/indoor2.jpg) no-repeat center center;
+    border-radius: 50%;
 }
 
-#right-about{ 
-    padding-top: 30px;
+#right-about-indoor{ 
+    padding-top: 20px;
     width: 33%;
+    height: 300px;
     float: right;
+    background: url(../images/indoor1.jpg) no-repeat center center;
+    border-radius: 50%;
 }
 
 #center-about{ 
-    padding-top: 30px;
+    padding-top: 70px;
     width: 33%;
     margin: 0 auto;
+    text-align: center;
+    font-size: 110%;
+}
+
+.sub-headings{
+    font-size: 250%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+#outdoor-bouldering {
+    height: 500px;
+
+}
+
+#left-about-outdoor{
+    padding-top: 20px;
+    width: 33%;
+    height: 300px;
+    float: left;
+    background: url(../images/outdoor2.jpg) no-repeat center center;
+    border-radius: 50%;
+}
+
+#right-about-outdoor{ 
+    padding-top: 20px;
+    width: 33%;
+    height: 300px;
+    float: right;
+    background: url(../images/outdoor1.jpg) no-repeat center center;
+    border-radius: 50%;
 }
