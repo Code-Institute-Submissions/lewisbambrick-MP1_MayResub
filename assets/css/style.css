@@ -28,6 +28,7 @@ h1,
 h2 {
     font-family: bangers, sans-serif;
     color: ivory;
+    letter-spacing: 4px;
 }
 
 #logo {
@@ -73,15 +74,33 @@ h2 {
     line-height: 50px;
 }
 
-/* main image*/
-#main-image-outer {
+/* main images*/
+#main-image-location-outer {
 
     width: 100%;
     height: 600px;
     overflow: hidden;
 }
 
-#main-image {
+#main-image-location {
+    width: 100%;
+    height: 600px;
+    background: url('../images/main-image2.jpg') no-repeat center center;
+
+    /* activates animation*/
+    animation: main-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#main-image-index-outer {
+
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#main-image-index {
     width: 100%;
     height: 600px;
     background: url('../images/main-image.jpg') no-repeat center center;
@@ -165,6 +184,57 @@ h2 {
     height: 300px;
     float: right;
     background: url(../images/outdoor1.jpg) no-repeat center center;
+    border-radius: 50%;
+}
+
+/*locations content*/
+#location-image1{
+    margin-top: 20px;
+    height: 300px;
+    width: 33%;
+    float: left;
+    background: url(../images/location1.jpg) no-repeat center center;
+    border-radius: 50%;
+}
+.location-text-right{
+    height: 300px;
+    width: 66%;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    float: right;
+    font-size: 130%;
+    background: chartreuse;
+
+}
+
+#location-image2{
+    margin-top: 20px;
+    height: 300px;
+    width: 33%;
+    float: right;
+    background: url(../images/location2.jpg) no-repeat center center;
+    border-radius: 50%;
+}
+
+.location-text-left{
+    height: 300px;
+    width: 66%;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    float: left;
+    font-size: 130%;
+    background: chartreuse;
+
+}
+
+#location-image3{
+    margin-top: 20px;
+    height: 300px;
+    width: 33%;
+    float: left;
+    background: url(../images/location3.jpg) no-repeat center center;
     border-radius: 50%;
 }
 /*footer stylings*/
