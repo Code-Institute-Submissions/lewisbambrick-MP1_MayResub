@@ -42,7 +42,6 @@ h2 {
     list-style: none;
     font-size: 120%;
     padding-top: 20px;
-
 }
 
 #nav-bar li {
@@ -126,12 +125,15 @@ h2 {
 #contact-us-main{
     width:100%;
     height: 800px;
-    background: url("..//images/contact-us-main.jpg");
+    background: url("..//images/contact-us-main.jpg") no-repeat center center;
 }
 /* indoor bouldering*/
 
 #indoor-bouldering {
-    height: 500px;
+    height: 800px;
+    width: 100%;
+    font-size: 130%;
+    margin-top: 20px;
 
 }
 
@@ -165,12 +167,14 @@ h2 {
     font-size: 250%;
     letter-spacing: 5px;
     text-align: center;
-    margin: 20px;
+    margin-bottom: 20px;
     text-decoration: underline;
 }
 /*outdoor bouldering*/
 #outdoor-bouldering {
-    height: 500px;
+    height: 800px;
+    width: 100%;
+    font-size: 130%;
 
 }
 
@@ -193,6 +197,11 @@ h2 {
 }
 
 /*locations content*/
+#locations{
+    height: 1000px;
+    width: 100%;
+
+}
 #location-image1{
     margin: 20px 0 20px 0;
     height: 300px;
@@ -252,7 +261,40 @@ h2 {
     border-radius: 50%;
 }
 
+/* contact-us form*/
+.contact-us-form{
+    margin: 300px 0 0 0;
+  color:ghostwhite;
+  background-color:rgba(60, 60, 60, 0.6);
+  max-width:400px;
+  position:absolute;
+  left:10%;
+  padding:30px;
+}
 
+.form-input{
+    background:transparent;
+    color:ghostwhite;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border:2px solid ghostwhite;
+    border-radius:2px;
+}
+.form-input:hover{
+    border-color:red;
+}
+
+.submit-button{
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:red;
+    color:ghostwhite;
+    display:block;
+}
 /*footer stylings*/
 footer{
     height: 100px;
@@ -270,4 +312,12 @@ footer{
     font-size: 150% ;
     padding: 5%;
     color: ghostwhite;
+}
+/*media queries*/
+@media screen and (max-width:1000px){
+#indoor-bouldering, #outdoor-bouldering{
+    width: 100%;
+
+}
+
 }
