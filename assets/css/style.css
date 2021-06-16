@@ -189,29 +189,29 @@ h2 {
 
 /*locations content*/
 #location-image1{
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     height: 300px;
-    width: 33%;
+    width: 40%;
     float: left;
     background: url(../images/location1.jpg) no-repeat center center;
     border-radius: 50%;
 }
 .location-text-right{
     height: 300px;
-    width: 66%;
+    width: 60%;
     text-align: center;
     margin-top: 20px;
     padding-top: 50px;
     float: right;
     font-size: 130%;
-    background: chartreuse;
+    
 
 }
 
 #location-image2{
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     height: 300px;
-    width: 33%;
+    width: 40%;
     float: right;
     background: url(../images/location2.jpg) no-repeat center center;
     border-radius: 50%;
@@ -219,22 +219,31 @@ h2 {
 
 .location-text-left{
     height: 300px;
-    width: 66%;
+    width: 60%;
     text-align: center;
     margin-top: 20px;
     padding-top: 50px;
     float: left;
     font-size: 130%;
-    background: chartreuse;
+  
 
 }
 
 #location-image3{
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     height: 300px;
-    width: 33%;
+    width: 40%;
     float: left;
     background: url(../images/location3.jpg) no-repeat center center;
+    border-radius: 50%;
+}
+
+#location-image4{
+    margin: 50px 0 50px 0;
+    height: 300px;
+    width: 40%;
+    float: left;
+    background: url(../images/location4.jpg) no-repeat center center;
     border-radius: 50%;
 }
 /*footer stylings*/
