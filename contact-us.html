@@ -20,55 +20,43 @@
             <nav>
                 <ul id="nav-bar">
 
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a  class="active" href="contact-us.html">Contact Us</a></li>
 
                     <li class="menu-seperator"><a href="locations.html">Locations</a></li>
 
-                    <li class="menu-seperator"><a class="active" href="index.html">Home</a></li>
+                    <li class="menu-seperator"><a href="index.html">Home</a></li>
                 </ul>
             </nav>
         </section>
     </header>
 
-    <section id="main-image-index-outer">
-
-        <div id="main-image-index"></div>
+    <section id="contact-us-main">
+        <section class="form-section">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-us-form">
+                <h2>Contact us with any questions you have!</h2>
+                <label for="fname">First Name</label>
+                <input id="fname" class="form-input" name="first_name" type="text" required>
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" class="form-input" name="last_name" type="text" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" class="form-input" id="email" name="email_address" required>
+                
+                <label for="road">Outdoor</label>
+                <input type="radio" id="road" name="running_preference" value="outdoor" required>
+                <label for="trail">Indoor</label>
+                <input type="radio" id="trail" name="running_preference" value="indoor" required>
+                <label for="both">Both</label>
+                <input type="radio" id="both" name="running_preference" value="both" required>
+                
+                <input class="submit-button" type="submit" value="Submit!">
+            </form>
+        </section>
 
     </section>
 
-    <section id="indoor-bouldering">
-
-        <h1 class="sub-headings">What is Indoor Bouldering?</h1>
-
-        <div id="left-about-indoor"></div>
-        <div id="right-about-indoor"></div>
-        <div id="center-about">
-            <div>
-                <p>From absolute beginners to seasoned veterans indoor climbing walls give climbers the opportunity to
-                    climb regardless of the weather. Regular route-setting maintains a constant flow of new challenges
-                    for climbers of all levels. Many walls offer instruction and coaching to climbers of all abilities
-                    who wish to brush up on their skills or improve their personal performance</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="outdoor-bouldering">
-
-        <h1 class="sub-headings">What is outdoor Bouldering?</h1>
-
-        <div id="left-about-outdoor"></div>
-        <div id="right-about-outdoor"></div>
-        <div id="center-about">
-            <div>
-                <p>Bouldering is the simplest form of rock climbing, where one has to climb short but difficult
-                    “problems” while focusing less on endurance and more on technique and power. Since height is in
-                    general not that big, you won’t need a rope or harness as you do with sport or trad climbing, where
-                    you reach bigger heights, have to secure yourself to the wall and also need a partner to keep you
-                    safe. For bouldering you secure your landing with pads, and you can go at it alone. This makes
-                    bouldering a great way to kickstart your rock climbing.</p>
-            </div>
-        </div>
-    </section>
+    
 
     <footer>
         <ul class="footer-icons">
