@@ -315,13 +315,6 @@ footer{
     color: ghostwhite;
 }
 /*media queries*/
-@media screen and (max-width:1000px){
-#indoor-bouldering, #outdoor-bouldering{
-    width: 100%;
-
-}
-
-}
 
 @media screen and (max-width:900px){
 .location-text-right, .location-text-left{
@@ -345,6 +338,25 @@ height: 400px;
     }
     #header {
         height: 150px;
+    }
+    #left-about-indoor,#right-about-indoor{
+        clear:left;
+        clear: right;
+        width: 40%;
+    }
+    #left-about-outdoor,#right-about-outdoor{
+        clear:left;
+        clear: right;
+        width: 40%;
+    }
+    #center-about{
+        width: 100%;
+        text-align: left;
+        margin-top: 280px;
+    }
+
+    #outdoor-bouldering{
+        height: 650px;
     }
 }
 
