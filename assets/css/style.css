@@ -144,7 +144,6 @@ h2 {
     height: 300px;
     float: left;
     background: url(../images/indoor2.png) no-repeat center center;
-    border-radius: 50%;
 }
 
 #right-about-indoor{ 
@@ -153,7 +152,6 @@ h2 {
     height: 300px;
     float: right;
     background: url(../images/indoor1.png) no-repeat center center;
-    border-radius: 50%;
 }
 
 #center-about{ 
@@ -185,7 +183,6 @@ h2 {
     height: 300px;
     float: left;
     background: url(../images/outdoor2.png) no-repeat center center;
-    border-radius: 50%;
 }
 
 #right-about-outdoor{ 
@@ -194,7 +191,6 @@ h2 {
     height: 300px;
     float: right;
     background: url(../images/outdoor1.png) no-repeat center center;
-    border-radius: 50%;
 }
 
 /*locations content*/
@@ -264,7 +260,7 @@ h2 {
 
 /* contact-us form*/
 .contact-us-form{
-    margin: 300px 0 0 0;
+    margin: 300px 40px 10px 10px;
   color:ghostwhite;
   background-color:rgba(60, 60, 60, 0.6);
   max-width:400px;
@@ -335,6 +331,7 @@ height: 400px;
         clear:left;
         float: left;
         margin-top: -30px;
+        margin-left: 5px;
     }
     #header {
         height: 150px;
@@ -342,12 +339,13 @@ height: 400px;
     #left-about-indoor,#right-about-indoor{
         clear:left;
         clear: right;
-        width: 40%;
+        width: 50%;
+        
     }
     #left-about-outdoor,#right-about-outdoor{
         clear:left;
         clear: right;
-        width: 40%;
+        width: 50%;
     }
     #center-about{
         width: 100%;
@@ -356,9 +354,14 @@ height: 400px;
     }
 
     #outdoor-bouldering{
-        height: 650px;
+        height: 800px
+    }
+    
+    #main-image-index {
+        background: url('../images/main-image.jpg') no-repeat left center;
     }
 }
+
 
 @media screen and (max-width:620px){
     .location-text-right, .location-text-left{
@@ -369,4 +372,32 @@ height: 400px;
     
     }
 
+    #left-about-outdoor,#right-about-outdoor{
+        width: 100%;
+    }
+    #left-about-indoor,#right-about-indoor{
+        width: 100%;
+    }
+    #indoor-bouldering{
+        height: 1050px;
+    }
+    #outdoor-bouldering{
+        height: 1200px;
+    }
+}
+@media screen and (max-width:550px){
+    #left-about-indoor,#right-about-indoor{
+        float: left;
+        width: 100%;
+    }
+    #indoor-bouldering{
+        height: 1200px;
+    }
+    #left-about-outdoor,#right-about-outdoor{
+        float: left;
+        width: 100%;
+    }
+    #outdoor-bouldering{
+        height: 1500px;
+    }
 }
