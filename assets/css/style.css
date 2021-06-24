@@ -434,3 +434,14 @@ height: 400px;
     }
     
 }
+
+@media screen and (max-width:380px){
+    #nav-bar{
+        font-size: 70%;
+    }
+    #indoor-bouldering{
+        height: 1300px;
+    }
+
+
+}
