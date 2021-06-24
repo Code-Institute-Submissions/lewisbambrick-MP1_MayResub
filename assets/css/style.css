@@ -415,7 +415,22 @@ height: 400px;
 }
 @media screen and (max-width:410px){
     #outdoor-bouldering{
-        height:
+        height:1450px;
     }
+}
 
+@media screen and (max-width:520px) {
+
+    #location-image1,#location-image2,#location-image3,#location-image4,.location-text-left,.location-text-right{
+        width: 100%;
+        clear: both;
+    }
+    #location-image1,#location-image2,#location-image3,#location-image4{
+        height: 200px;
+
+    }
+    .location-text-left,.location-text-right{
+        height: 400px;
+    }
+    
 }
