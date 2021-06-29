@@ -22,6 +22,7 @@ The aim of this project is to build a website using only HTML and CSS.
     - [User stories](#user-stories)
     - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
+    - [Design Templates](#design-templates)
 
 # User Experience
 
@@ -97,3 +98,26 @@ This website is made to be smooth, clear and easy to navigate. It is adaptable f
 9.Contact-Us on Mobile.
 
 ![wireframe9](assets/images/Contact-us-mobile.png)
+
+## Design Templates
+
+### Fonts
+    The Fonts I have chosen for my site are:
+        *Bangers
+        *Montserrat.
+        *Back-up font of Sans-serif
+    These fonts were chosen because I believe they match up together really well.The fonts also give a great overall feel of the website.
+
+### Colours 
+The main colours I chose to use for my site are:
+
+        *Background colour: rgb 105, 105, 105. 
+        *Font Colour: rgb 258, 248, 255. 
+        *Heading Colour: rgb 255, 255, 240. 
+        *Form Background: rgba 60, 60, 60, 0.6. 
+        *form hover/submit button: rgb 255, 0, 0. 
+
+### Images 
+All of the images I've used on my site were taken from [Pexels](https://www.pexels.com/), they are credited in my Credit section.
+
+[Back to Table of contents](#table-of-contents)
