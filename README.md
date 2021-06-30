@@ -184,6 +184,7 @@ The Features of my website are:
     - Home 
     - Locations
     - Contact Us
+    
     The links have a hover styling on them that underlines them while you hover over them. There is also an active styling on it. This makes the link for the page that the user is currently on be underlined, that way they can always see what page they're on.
 
 ## Main Image
@@ -305,20 +306,18 @@ To deploy the project I had to:
 # Credits
 * For this project I used the Code Institute student Template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 * ### Ideas
-    - Many of the resources I reviewed from the Code Institute, such as the Love Running practice project, served as inspiration for this project. 
-
-    Among the ideas that stemmed from this earlier project were:
+    - Many of the resources I reviewed from the Code Institute, such as the Love Running practice project, served as inspiration for this project. Among the ideas that stemmed from this earlier project were:
         * Navigation menu layout.
         * Contact Us Form.
         * Footer, Social links.
-        * The idea of using circular images.
-        * I got the idea and code help for the keyframe animation for the main image.
+        * Circular image layouts.
+        * Code for the keyframe animation for the main image.
     
 * ### General Content
     - text content for Outdoor Bouldering-[explore share](https://www.explore-share.com/blog/what-is-bouldering/)
     - text content for Indoor Bouldering-[Mountaineering](https://www.mountaineering.ie/Climbing/IndoorClimbing/default.aspx)
     - text content for the Scalp location [wiki-climbing](http://wiki.climbing.ie/index.php?title=The_Scalp&redirect=no)
-    - text content for gravity location [gravity-climbing](https://www.gravityclimbing.ie/)
+    - text content for Gravity location [gravity-climbing](https://www.gravityclimbing.ie/)
     - text content for Glendalough location [Glendalough](https://hikeandclimb.ie/glendalough/)
     - text content for The Wall location [TheWall](https://www.thewall.ie/)
 
