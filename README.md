@@ -2,7 +2,7 @@
 
 ## HTML and CSS Essentials Project.
 
-![main-image](assets/images/read-me-main-image.jpg)
+![main-image](assets/images/read-me-main-image.jpg) 
 
 The Website I created provides information about both indoor, outdoor rock climbing and locations for rock climbing.
 
@@ -25,6 +25,15 @@ The aim of this project is to build a website using only HTML and CSS.
     - [Design Templates](#design-templates)
 - [Technology](#technology)
 - [Features of the Site](#features-of-the-site)
+- [Testing](#testing)
+    - [Compatability Testing](#compatability-testing)
+    - [Functionality testing](#Functionality-testing)
+    - [User Story testing](#User-Story-testing)
+    - [Issues and Fixes](#Issues-and-Fixes)
+    - [Code Validation](#Code-Validation)
+    - [Performance Test](#Performance-Test)
+- [Deployment](#deployment)
+- [Credits](#credits)
 # User Experience
 
 ## Website Owner Goals
@@ -209,5 +218,114 @@ The Features of my website are:
     * Regular updates and expanding of the locations list.
     * Possibly adding and events page and adding a call to action on the home page for it.
     * Updates to the basics of rock climbing.
+
+[Back to Table of contents](#table-of-contents)
+---
+
+# Testing
+
+## Compatability testing
+    I tested my site on multiple devices and browswers. I did this by using the Chrome developement tools on my Chrome book.
+    My site was also tested on my Chromebook, an iphone 5 and a Google Pixel 4a.
+
+## Functionality testing
+    For the duration of my project I used my Chrome developer tools to keep testing with styles and responsiveness.
+
+## User Story testing
+
+### As a new User:
+- I would like to be able to find out what rock climing is and basic information about it easily.
+    > Information about Rock climbing is clear and easy to find on the first page users visit the site on. The information is eye catching, and clearly seperated into sections for both indoor and outdoor bouldering.
+- I would like to find out information about where I can boulder across Ireland, and a brief description of them.
+    > Locations page is very easy to find for Users. Once they get to that page it is real easy to find the locations we have on the page, and the information about that location.
+- I would like to be able to ask any question I have about bouldering that the site didnt already answer.
+    > Contact Us page is very easy to find for all Users to find. Once users get there the Form is visible straight away. The Form is also easy to use and eye catching.
+
+### As a Returning User:
+- I would like to be able to return and ask any new questions I might have.
+    > Form leaves it open to always ask anything about Rock climbing so it is very easy to return to ask new questions.
+- I would like to be able to return to find more information about different locations to go bouldering. 
+    > Locations page has multiple locations, so after a user learns about and visits a location, they can return to learn about others.
+
+### As the Site Owner:
+- I would like my users to be able to navigate and find the information they need to on my site as smooth and easily as possible.
+    > Navigation menu is easy to find and stays fixed to the top of the screen.
+- I would like my users to not hesitate in sending off their questions to me.
+    >The Contact Us form is very eye catching, simple and friendly.
+- I would like my customers to recognize the site as a reliable site with accurate information.
+    >All the information used is very accurate and trust worthy, and will build the reputation for that.
+
+--- 
+
+## Issues and Fixes
+- ### Menu was out of order
+    While I was creating the Nav menu for my website I had forgotten to order the list backwards for when Floating the list items.
+    > This was fixed by simply rearranging the order of my menu in the HTML code.
+
+- ### Main image on Contact Us page was off center
+    After creating the Contact Us page I realized that I had forgotten to center the image.
+    > This was easily fixed by adding the Center shorthand on to the end of the image link.
+
+- ### Youtube link was broken.
+    While testing my site at the end of creating it I noticed that the Youtube link for my social media links in the footer was broken.
+    >This was because I had made a typo that had the https part of the link repeated. I fixed this simply by deleting one of the https's
+
+## Code Validation
+    At the end of my Project I Validated both my CSS code and my HTML code using:
+ -  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS.
+ - [Nu Html Checker](https://validator.w3.org/) to test HTML.
+
+## Performance Test
+    To test the performance of my site I used the Google developer tool, Lighthouse.
+    Find screenshot below:
+![Performance results](assets/images/performance.png)
+
+
+[Back to Table of contents](#table-of-contents)
+--- 
+# Deployment
+
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+I used push command in Gitpod to save changes into GitHub.
+
+To run localy:
+* Log in to GitHub and click on repository to download ([MP1](https://github.com/lewisbambrick/MP1)).
+* select Code and click Download the ZIP file.
+* after download you can extract the file and use it in your local environment.
+
+To deploy a project I had to:
+
+* Log in to GitHub and click on repository to deploy ([MP1](https://github.com/lewisbambrick/MP1))
+* select Settings and find GitHub Pages section at the very bottom of the page.
+* from source select none and then master branch.
+* click save and page was deployed after auto-refresh.
+*  My site was published at https://lewisbambrick.github.io/MP1/
+
+[Back to Table of contents](#table-of-contents)
+---
+# Credits
+* For this project I used the Code Institute student Template [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* ### Ideas
+    - I actully recieved alot of ideas From the code institute, this was from their Love Running practice project. These are some of the ideas I got from it:
+        * Navigation menu layout.
+        * Contact Us Form.
+        * Footer, Social links.
+        * The idea of using circular images.
+        * I got the idea and code help for the keyframe animation for the main image.
+    
+* ### General Content
+    - text content for Outdoor Bouldering-[explore share](https://www.explore-share.com/blog/what-is-bouldering/)
+    - text content for Indoor Bouldering-[Mountaineering](https://www.mountaineering.ie/Climbing/IndoorClimbing/default.aspx)
+    - text content for the Scalp location [wiki-climbing](http://wiki.climbing.ie/index.php?title=The_Scalp&redirect=no)
+    - text content for gravity location [gravity-climbing](https://www.gravityclimbing.ie/)
+    - text content for Glendalough location [Glendalough](https://hikeandclimb.ie/glendalough/)
+    - text content for The Wall location [TheWall](https://www.thewall.ie/)
+
+* ### Images
+    All images that I have used for my site have been taken from [Pexels](https://www.pexels.com/) a free image site.
+
+* ### Icons
+    The Icons that I have used for my social media links in the footer were taken from [fontawesome](https://fontawesome.com/)
+
 
 [Back to Table of contents](#table-of-contents)
