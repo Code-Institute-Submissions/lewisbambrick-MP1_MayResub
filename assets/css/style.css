@@ -154,7 +154,7 @@ h2 {
     background: url(../images/indoor1.png) no-repeat center center;
 }
 
-#center-about{ 
+.center-about{ 
     padding-top: 70px;
     width: 33%;
     margin: 0 auto;
@@ -347,7 +347,7 @@ height: 400px;
         clear: right;
         width: 50%;
     }
-    #center-about{
+    .center-about{
         width: 100%;
         text-align: left;
         margin-top: 280px;
