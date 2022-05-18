@@ -435,6 +435,13 @@ height: 400px;
     
 }
 
+@media screen and (max-width:400px){
+  #contact-us-main{
+      height: 1000px;
+  }
+
+}
+
 @media screen and (max-width:380px){
     #nav-bar{
         font-size: 70%;
